@@ -8,13 +8,13 @@ const MainLayouts = ({ children }) => {
       <NavLink to={"/"} className="p-[10px]">
         Home
       </NavLink>
-      <NavLink to={"/about"} className="p-[10px]">
+      <NavLink to={"#about"} className="p-[10px]">
         About Me
       </NavLink>
     </>
   );
   return (
-    <div>
+    <div className="">
       <div className="drawer">
         <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content flex flex-col">

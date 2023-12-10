@@ -1,7 +1,7 @@
 .name {
   display: flex;
   background: #000;
-  min-height: 10vh;
+  min-height: 20vh;
   align-items: center;
   justify-content: center;
 }
