@@ -16,7 +16,7 @@ const Banner = () => {
           <h2>AnikHasan </h2>
         </div>
       </section>
-      <h2 className=" text-lg md:text-6xl pb-4 text-center mt-10 lg:-mr-80 text-orange-500 md:text-[#03a9f4]">
+      <h2 className=" text-lg md:text-6xl pb-4 text-center mt-10 lg:ml-80 text-orange-500 md:text-[#03a9f4]">
         a React web developer
       </h2>
     </div>
