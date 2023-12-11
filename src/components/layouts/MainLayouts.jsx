@@ -1,16 +1,17 @@
-import { NavLink } from "react-router-dom";
 import "./navlink.css";
 import DownloadResume from "../resumeButton/DownloadResume";
+import { Link } from "react-scroll";
 
 const MainLayouts = ({ children }) => {
   const menuLink = (
     <>
-      <NavLink to={"/"} className="p-[10px]">
+      <Link to={"home"} className="active">
         Home
-      </NavLink>
-      <NavLink to={"#about"} className="p-[10px]">
+      </Link>
+
+      <Link to="about" className="active" smooth={true} duration={500}>
         About Me
-      </NavLink>
+      </Link>
     </>
   );
   return (
@@ -19,7 +20,7 @@ const MainLayouts = ({ children }) => {
         <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content flex flex-col">
           {/* Navbar */}
-          <div className="w-full navbar bg-base-200">
+          <div className="w-full  md:fixed  navbar bg-base-200">
             <div className="max-w-[1200px] w-full mx-auto ">
               <div className="flex-none lg:hidden">
                 <label

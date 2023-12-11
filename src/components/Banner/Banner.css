@@ -1,7 +1,7 @@
 .name {
   display: flex;
   background: #000;
-  min-height: 20vh;
+  min-height: 30vh;
   align-items: center;
   justify-content: center;
 }
@@ -12,7 +12,7 @@
 
 .content h2 {
   color: #fff;
-  font-size: 8em;
+  font-size: 6rem;
   position: absolute;
   transform: translate(-50%, -50%);
 }
@@ -60,7 +60,7 @@
 
 @media screen and (max-width: 570px) {
   .content h2 {
-    font-size: 5rem;
-    padding: 0 10px;
+    font-size: 4rem;
+    /* padding: 0 10px; */
   }
 }

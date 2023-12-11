@@ -1,0 +1,52 @@
+{
+  "skills": [
+    {
+      "id": 1,
+      "title": "HTML",
+      "logo": "https://skillicons.dev/icons?i=html",
+      "details": "Proficient in creating semantic and accessible HTML structures for web development."
+    },
+    {
+      "id": 2,
+      "title": "CSS",
+      "logo": "https://skillicons.dev/icons?i=css",
+      "details": "Skilled in styling web pages with CSS, including responsive design and modern layout techniques."
+    },
+    {
+      "id": 3,
+      "title": "Tailwind CSS",
+      "logo": "https://skillicons.dev/icons?i=tailwind",
+      "details": "Experience in using Tailwind CSS for rapid and efficient styling, utility-first approach."
+    },
+    {
+      "id": 4,
+      "title": "JavaScript",
+      "logo": "https://skillicons.dev/icons?i=js",
+      "details": "Strong foundation in JavaScript, capable of creating dynamic and interactive web applications."
+    },
+    {
+      "id": 5,
+      "title": "React",
+      "logo": "https://skillicons.dev/icons?i=react",
+      "details": "Proficient in building user interfaces with React, including state management and component-based architecture."
+    },
+    {
+      "id": 6,
+      "title": "Firebase",
+      "logo": "https://skillicons.dev/icons?i=firebase",
+      "details": "Familiar with Firebase for real-time database, authentication, and cloud functions."
+    },
+    {
+      "id": 7,
+      "title": "MongoDB",
+      "logo": "https://skillicons.dev/icons?i=mongodb",
+      "details": "Basic knowledge of MongoDB for NoSQL database solutions."
+    },
+    {
+      "id": 8,
+      "title": "JWT",
+      "logo": "https://skillicons.dev/icons?i=jwt",
+      "details": "Understanding of JSON Web Tokens for secure and efficient data exchange."
+    }
+  ]
+}
