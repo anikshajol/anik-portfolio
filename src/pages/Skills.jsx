@@ -22,7 +22,7 @@ const Skills = () => {
               </figure>
               <div className="card-body">
                 <h2 className="card-title">{skill.title}</h2>
-                <p> {skill.details} </p>
+                <p className="text-[#ffffffa1]"> {skill.details} </p>
               </div>
             </div>
           </section>

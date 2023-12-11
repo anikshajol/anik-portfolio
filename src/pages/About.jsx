@@ -14,7 +14,7 @@ const About = () => {
             budding junior web developer with a passion for turning ideas into
             digital realities.
           </h3>
-          <p className="text-[#b3b0b0] pt-6 text-lg font-medium">
+          <p className="text-[#ffffffa1] pt-6 text-lg font-medium">
             Armed with a foundational understanding of HTML, CSS, JavaScript,
             and React I'm on a mission to learn, grow, and contribute to the
             ever-evolving web landscape. I'm excited to be part of a community
