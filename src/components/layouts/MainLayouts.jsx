@@ -5,14 +5,24 @@ import { Link } from "react-scroll";
 const MainLayouts = ({ children }) => {
   const menuLink = (
     <>
-      <Link to={"home"} className="active">
+      <Link to={"home"} className="active cursor-pointer">
         Home
       </Link>
 
-      <Link to="about" className="active" smooth={true} duration={500}>
+      <Link
+        to="about"
+        className="active cursor-pointer"
+        smooth={true}
+        duration={500}
+      >
         About Me
       </Link>
-      <Link to="skill" className="active" smooth={true} duration={500}>
+      <Link
+        to="skill"
+        className="active cursor-pointer"
+        smooth={true}
+        duration={500}
+      >
         Skills
       </Link>
     </>
@@ -23,7 +33,7 @@ const MainLayouts = ({ children }) => {
         <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content flex flex-col">
           {/* Navbar */}
-          <div className="w-full  md:fixed z-10 navbar bg-base-200">
+          <div className="w-full   z-10 navbar bg-base-200">
             <div className="max-w-[1200px] w-full mx-auto ">
               <div className="flex-none lg:hidden">
                 <label

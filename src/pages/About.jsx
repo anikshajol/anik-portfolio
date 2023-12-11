@@ -1,9 +1,12 @@
+import Title from "../components/Title/Title";
+
 const About = () => {
   return (
-    <section className="md:h-[70vh] bg-[#1d1c1c] rounded-md -mt-8 container mx-auto">
-      <h1 className="text-4xl text-center pt-8  text-white">About Me</h1>
-      <div className=" border-b-4 w-40 mx-auto pt-3 mb-8 border-b-orange-500"></div>
-      <div className="flex flex-col lg:flex-row w-9/12 mx-auto gap-20 items-center">
+    <section className="pb-10 mb-28 px-8 bg-[#1d1c1c] rounded-md -mt-8 container mx-auto">
+      {/* <h1 className="text-4xl text-center pt-8  text-white">About Me</h1>
+      <div className=" border-b-4 w-40 mx-auto pt-3 mb-8 border-b-orange-500"></div> */}
+      <Title heading={"About Me"}></Title>
+      <div className="flex flex-col lg:flex-row mx-auto gap-20 items-center">
         <div className="flex-[2] text-justify">
           <h3 className="text-2xl text-white">
             Hey, I'm{" "}

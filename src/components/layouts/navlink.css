@@ -6,6 +6,6 @@
 .active:hover {
   color: #f97316;
 }
-.active:active {
+a:active {
   color: #f97316;
 }

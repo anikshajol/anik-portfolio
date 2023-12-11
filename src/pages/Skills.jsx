@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import Title from "../components/Title/Title";
 
 const Skills = () => {
   const [skills, setSkills] = useState([]);
@@ -10,16 +11,12 @@ const Skills = () => {
   }, []);
 
   return (
-    <section className="max-w-7xl mx-auto">
-      <h1 className="text-4xl text-center pt-8  text-white">Skills</h1>
-      <div className=" border-b-4 w-40 mx-auto pt-3 mb-8 border-b-orange-500"></div>
-      <div className="grid grid-cols-2   justify-center items-center ">
+    <section className="container mx-auto">
+      <Title heading={"Skills"}></Title>
+      <div className="grid grid-cols-1 px-4  md:grid-cols-2 justify-center items-center ">
         {skills.map((skill) => (
-          <section
-            className="place-content-center place-items-center"
-            key={skill.id}
-          >
-            <div className="card card-side text-white shadow-xl">
+          <section className="" key={skill.id}>
+            <div className="card md:card-side text-white shadow-xl">
               <figure>
                 <img src={skill.logo} alt="Movie" />
               </figure>
