@@ -4,7 +4,7 @@ import Marquee from "react-fast-marquee";
 import DownloadResume from "../resumeButton/DownloadResume";
 const Banner = () => {
   return (
-    <div className="bg-black h-screen z-10 ">
+    <div className="bg-black h-screen  ">
       <div className="hidden md:block md:mt-20">
         <DownloadResume></DownloadResume>
       </div>

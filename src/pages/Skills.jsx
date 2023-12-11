@@ -1,22 +1,37 @@
+import { useEffect, useState } from "react";
+
 const Skills = () => {
+  const [skills, setSkills] = useState([]);
+
+  useEffect(() => {
+    fetch("skills.json")
+      .then((res) => res.json())
+      .then((data) => setSkills(data));
+  }, []);
+
   return (
-    <div>
-      <div className="card card-side bg-base-100 shadow-xl">
-        <figure>
-          <img
-            src="https://daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg"
-            alt="Movie"
-          />
-        </figure>
-        <div className="card-body">
-          <h2 className="card-title">New movie is released!</h2>
-          <p>Click the button to watch on Jetflix app.</p>
-          <div className="card-actions justify-end">
-            <button className="btn btn-primary">Watch</button>
-          </div>
-        </div>
+    <section className="max-w-7xl mx-auto">
+      <h1 className="text-4xl text-center pt-8  text-white">Skills</h1>
+      <div className=" border-b-4 w-40 mx-auto pt-3 mb-8 border-b-orange-500"></div>
+      <div className="grid grid-cols-2   justify-center items-center ">
+        {skills.map((skill) => (
+          <section
+            className="place-content-center place-items-center"
+            key={skill.id}
+          >
+            <div className="card card-side text-white shadow-xl">
+              <figure>
+                <img src={skill.logo} alt="Movie" />
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title">{skill.title}</h2>
+                <p> {skill.details} </p>
+              </div>
+            </div>
+          </section>
+        ))}
       </div>
-    </div>
+    </section>
   );
 };
 
