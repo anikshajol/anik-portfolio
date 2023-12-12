@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import img1 from "../assets/images/Screenshot_1.jpg";
 import img2 from "../assets/images/asGadgetScreenshot_1.jpg";
-import SectionTitle from "../components/Title/SectionTitle";
 import Title from "../components/Title/Title";
 const MyProjects = () => {
   return (

@@ -41,6 +41,14 @@ const MainLayouts = ({ children }) => {
       >
         My Projects
       </Link>
+      <Link
+        to="contact"
+        className="active cursor-pointer"
+        smooth={true}
+        duration={500}
+      >
+        Contact
+      </Link>
     </>
   );
   return (
