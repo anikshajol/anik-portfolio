@@ -2,7 +2,8 @@ import { Element } from "react-scroll";
 import Banner from "../components/Banner/Banner";
 import About from "./About";
 import Skills from "./Skills";
-import Resume from "./Resume";
+import PersonalInfo from "./PersonalInfo";
+import MyProjects from "./MyProjects";
 
 const Home = () => {
   return (
@@ -17,7 +18,10 @@ const Home = () => {
         <Skills></Skills>
       </Element>
       <Element name="info">
-        <Resume></Resume>
+        <PersonalInfo></PersonalInfo>
+      </Element>
+      <Element name="projects">
+        <MyProjects></MyProjects>
       </Element>
     </div>
   );

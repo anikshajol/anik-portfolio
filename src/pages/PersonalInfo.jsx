@@ -1,14 +1,14 @@
 import React from "react";
 import Title from "../components/Title/Title";
 import SectionTitle from "../components/Title/SectionTitle";
-import Card from "../components/ResumeCard/Card";
+import Card from "../components/PersonalInfo/Card";
 
-const Resume = () => {
+const PersonalInfo = () => {
   return (
-    <div className="container mx-auto ">
+    <div className="container mx-auto mb-28 ">
       <Title heading={"Personal Info"}></Title>
 
-      <div className="flex justify-evenly">
+      <div className="flex flex-wrap justify-evenly">
         <div>
           <div>
             <SectionTitle title={"My Education"}></SectionTitle>
@@ -41,4 +41,4 @@ const Resume = () => {
   );
 };
 
-export default Resume;
+export default PersonalInfo;
