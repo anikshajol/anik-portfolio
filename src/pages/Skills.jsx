@@ -11,7 +11,7 @@ const Skills = () => {
   }, []);
 
   return (
-    <section className="container mx-auto">
+    <section className="container mb-28 mx-auto">
       <Title heading={"Skills"}></Title>
       <div className="grid grid-cols-1 px-4  md:grid-cols-2 justify-center items-center ">
         {skills.map((skill) => (

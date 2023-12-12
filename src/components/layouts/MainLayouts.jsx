@@ -25,6 +25,14 @@ const MainLayouts = ({ children }) => {
       >
         Skills
       </Link>
+      <Link
+        to="info"
+        className="active cursor-pointer"
+        smooth={true}
+        duration={500}
+      >
+        Personal Info
+      </Link>
     </>
   );
   return (
@@ -33,7 +41,7 @@ const MainLayouts = ({ children }) => {
         <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content flex flex-col">
           {/* Navbar */}
-          <div className="w-full   z-10 navbar bg-base-200">
+          <div className="w-full z-10 navbar bg-base-200">
             <div className="max-w-[1200px] w-full mx-auto ">
               <div className="flex-none lg:hidden">
                 <label
